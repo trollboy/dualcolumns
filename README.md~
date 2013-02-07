@@ -11,8 +11,8 @@ well as optional left/right classes.
 
 
 
-single class example
-====================
+examples
+========
 
 $('div.columnbox').dualColumns(9, 'full', 'half');
 Find all divs with the class "columnbox" and assign them full
@@ -20,8 +20,8 @@ if text length is 9 or higher or there isn't another available
 half column in that row.
 
 
-dual class example
-==================
+
+
 $('div.columnbox').dualColumns(9, 'full', 'left', 'right');
 Same as above but now with the added option of using a left
 and right column class.

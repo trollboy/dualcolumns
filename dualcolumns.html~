@@ -1,0 +1,127 @@
+
+
+<html>
+        <head> 
+                <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+                <script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+                <script src="./sexy.minified.js"></script>
+                <script> 
+                        $(document).ready(function() {  
+                                //pass in the char limit, the full width class, and the half width class
+                                //$('div.sexybox').dualColumns(9, 'full', 'half');
+                                
+                                //You have an option of passing in a second css class 
+                                $('div.sexybox').dualColumns(9, 'full', 'left', 'right');
+                                
+                        });
+                </script>
+                <style>
+                .container {
+                        display: block;
+                        border: 5px solid black;
+                        margin: 20px;
+                        width: 512px;
+                }
+                .sexybox {
+                        width: 500;
+                        display: inline-block;
+                        margin: 5px;
+                        border: 1px solid red;
+                }
+                .full { 
+                	text-align: center;
+                        width: 500;
+                        background-color: lightgreen;
+		        border-radius: 10px 10px;
+                }
+                .half { 
+                	text-align: center; 
+                        width: 240;
+                        background-color: pink;
+		        border-radius: 10px 10px;
+                }
+                .left {
+		        border-top-left-radius: 10px 10px;
+			border-bottom-left-radius: 10px 10px;
+                	text-align: center; 
+                        width: 240;
+                        background-color: pink;
+                }
+                .right {
+		        border-top-right-radius: 10px 10px;
+			border-bottom-right-radius: 10px 10px; 
+                	text-align: center;
+                        width: 240;
+                        background-color: pink;
+                } 
+                </style>
+        </head>
+        <body>
+                <div class="container">
+                        <div class="sexybox">12345678</div>
+                        <div class="sexybox">12345689</div>
+                        <div class="sexybox">12346789</div>
+                        <div class="sexybox">12456789</div>
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                </div> 
+                <div class="container">
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">12345678</div>
+                        <div class="sexybox">12345689</div>
+                        <div class="sexybox">12346789</div>
+                        <div class="sexybox">12456789</div>
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                </div> 
+                <div class="container">
+                        <div class="sexybox">12345678</div>
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">12345689</div>
+                        <div class="sexybox">12346789</div>
+                        <div class="sexybox">12456789</div>
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                </div> 
+                <div class="container">
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">12345678</div>
+                        <div class="sexybox">12345689</div>
+                        <div class="sexybox">12346789</div>
+                        <div class="sexybox">12456789</div>
+                        <div class="sexybox">23456789</div>
+                        <div class="sexybox">123456789</div>
+                </div> 
+                <div class="container">
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">12345678</div>
+                        <div class="sexybox">12345689</div>
+                        <div class="sexybox">12346789</div>
+                        <div class="sexybox">12346789</div>
+                        <div class="sexybox">12346789</div>
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                        <div class="sexybox">12345689</div> 
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                        <div class="sexybox">12345689</div> 
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                        <div class="sexybox">12345689</div> 
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                        <div class="sexybox">12345689</div> 
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                        <div class="sexybox">12345689</div> 
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                        <div class="sexybox">12345689</div> 
+                        <div class="sexybox">123456789</div>
+                        <div class="sexybox">23456789</div>
+                        <div class="sexybox">12345689</div> 
+                </div> 
+        </body> 
+</html>
+
