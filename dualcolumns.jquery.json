@@ -1,0 +1,35 @@
+{
+        "name": "dualcolumns",
+        "title": "jQuery Dual Columns",
+        "description": "JQuery plugin that automatically changes short text to columns w/o the hassle of having white space in your container.",
+        "keywords": [
+                "formatting",
+                "layout",
+                "columns"
+        ],
+        "version": "2.1.2",
+        "author": {
+                "name": "Matt Wiseman",
+                "url": "http://hyboriansolutions.net"
+        },
+        "maintainers": [
+                {
+                        "name": "Matt Wiseman",
+                        "email": "matt@hyboriansolutions.net",
+                        "url": "http://hyboriansolutions.net" 
+                }
+        ],
+        "licenses": [
+                {
+                        "type": "MIT",
+                        "url": "https://github.com/trollboy/dualcolumns/blob/master/license.txt"
+                }
+        ],
+        "bugs": "https://github.com/trollboy/dualcolumns/issues",
+        "homepage": "https://github.com/trollboy/dualcolumns",
+        "docs": "https://github.com/trollboy/dualcolumns",
+        "download": "https://github.com/trollboy/dualcolumns/archive/master.zip",
+        "dependencies": {
+                "jquery": ">=1.5"
+        }
+}
