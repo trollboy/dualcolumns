@@ -33,4 +33,4 @@ contact
 I can be reached at trollboy@gmail.com.  Don't spam me or I will
 do all the things the gumdrop promises in the hit Mastodon song
 Linoleum knife.
-http://www.youtube.com/watch?v=xo9v_GIuDBk
+[http://www.youtube.com/watch?v=xo9v_GIuDBk](https://www.youtube.com/watch?v=WWvt3E5a-AA)
